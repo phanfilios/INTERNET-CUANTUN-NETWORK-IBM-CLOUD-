@@ -1,0 +1,29 @@
+# Configuración principal
+artifacts_dir: "artifacts"
+models_dir: "artifacts/models"
+reports_dir: "artifacts/reports"
+
+# Configuración cuántica
+quantum:
+  total_qubits: 100
+  group_size: 5
+  shots: 1024
+  entanglement_layers: 2
+  alpha: 1.5
+  scale: 0.01
+
+# IBM Quantum configuration
+ibm_quantum:
+  enabled: true
+  token: ${IBM_QUANTUM_TOKEN}  # Desde variable de entorno
+  instance: "ibm-q/open/main"
+  preferred_backend: "ibm_brisbane"  # Opcional
+  use_real_hardware: false  # Cambiar a true para usar hardware real
+  service_available: false
+
+# Configuración ML
+ml:
+  model_type: "rf"  # "rf" o "torch"
+  test_size: 0.2
+  epochs: 60
+  use_cuda: true

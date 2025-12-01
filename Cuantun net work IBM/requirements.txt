@@ -1,0 +1,29 @@
+# Quantum Computing
+qiskit==1.0.2
+qiskit-ibm-runtime==0.21.2
+qiskit-aer==0.13.0
+
+# Data Science & ML
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+torch==2.1.0
+joblib==1.3.2
+
+# Web API
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0  # Optional: for JWT tokens
+
+# Configuration & Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0  # ADD: Para variables de entorno
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.13.0
+
+# Development
+pytest==7.4.3  # ADD: Para testing
+black==23.9.1   # ADD: Para formateo

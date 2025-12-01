@@ -1,0 +1,12 @@
+{
+    "typeCheckingMode": "basic",
+    "reportUnusedImport": "warning",
+    "reportUnusedVariable": "warning", 
+    "reportUnusedFunction": "warning",
+    "reportUnknownMemberType": "none",
+    "reportUnknownVariableType": "none",
+    "reportUnknownArgumentType": "none",
+    "reportMissingTypeStubs": false,
+    "reportOptionalMemberAccess": false,
+    "pythonVersion": "3.9"
+}
