@@ -10,6 +10,11 @@
 
 **Sistema de Simulación y Monitoreo de Seguridad Cuántica**
 
+
+<img width="873" height="975" alt="image" src="https://github.com/user-attachments/assets/5427da20-1b3d-46e6-8aee-6dab23d2481f" />
+
+
+
 </div>
 
 ---
