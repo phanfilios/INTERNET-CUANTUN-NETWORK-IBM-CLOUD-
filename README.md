@@ -1,33 +1,48 @@
-# INTERNET-CUANTUN-NETWORK-IBM-CLOUD-
+@'
+# INTERNET-CUANTUN-NETWORK-IBM-CLOUD
 
-Proyecto académico y experimental orientado a la simulación y despliegue de redes en **IBM Cloud**, con enfoque en seguridad, modularidad y documentación en español.
+<div align="center">
 
----
+![Version](https://img.shields.io/badge/version-3.1.4-blue)
+![Python](https://img.shields.io/badge/python-3.9+-green)
+![Quantum](https://img.shields.io/badge/IBM_Quantum-Ready-purple)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-## 🚀 Objetivos
-- Explorar arquitecturas de red en entornos de nube (IBM Cloud).
-- Implementar prácticas de **ciberseguridad** y **detección de amenazas**.
-- Documentar el proceso en español para fines educativos y de portafolio.
+**Sistema de Simulación y Monitoreo de Seguridad Cuántica**
 
----
-
-## 📂 Estructura del repositorio
-- `src/` → Código fuente principal.
-- `data/` → Reglas y configuraciones (JSON, YAML).
-- `reports/` → Informes y resultados de pruebas.
-- `README.md` → Documento principal del proyecto.
+</div>
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-- **Python** (modular, con comentarios en español).
-- **IBM Cloud** (infraestructura y servicios).
-- **GitHub** (control de versiones y portafolio).
-- **Herramientas de seguridad** (detección basada en reglas).
+## 📋 Descripción
+
+**SCSC (Simulated Quantum Cyber Security Console)** es un sistema interactivo de terminal que simula un entorno de seguridad cuántica, permitiendo:
+
+- 🔐 Monitoreo de métricas cuánticas en tiempo real
+- 🖥️ Simulación de circuitos cuánticos (EPR, BB84)
+- 🛡️ Detección y mitigación de ataques cibernéticos
+- 📊 Visualización de criptografía post-cuántica (Kyber-1024, SPHINCS+)
+- 🌐 Monitoreo de cluster de nodos cuánticos
 
 ---
 
-## 📖 Uso
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/phanfilios/INTERNET-CUANTUN-NETWORK-IBM-CLOUD-.git
+## 🚀 Requisitos
+
+- Python 3.9 o superior
+- Windows / Linux / macOS
+
+**No requiere dependencias externas** - todo el código es nativo.
+
+---
+
+## 📦 Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/phanfilios/INTERNET-CUANTUN-NETWORK-IBM-CLOUD-.git
+
+# Entrar al directorio
+cd INTERNET-CUANTUN-NETWORK-IBM-CLOUD-
+
+# Ejecutar (no requiere instalación)
+python quantum_terminal.py
