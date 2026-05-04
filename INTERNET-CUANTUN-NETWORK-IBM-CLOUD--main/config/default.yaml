@@ -1,0 +1,53 @@
+# Configuración principal
+artifacts_dir: "artifacts"
+models_dir: "artifacts/models"
+reports_dir: "artifacts/reports"
+
+# Configuración cuántica
+quantum:
+  total_qubits: 100
+  group_size: 5
+  shots: 1024
+  entanglement_layers: 2
+  alpha: 1.5
+  scale: 0.01
+
+# IBM Quantum configuration
+ibm_quantum:
+  enabled: true
+  token: ${IBM_QUANTUM_TOKEN}
+  instance: "ibm-q/open/main"
+  preferred_backend: "ibm_brisbane"
+  use_real_hardware: false
+  service_available: false
+
+# Configuración ML
+ml:
+  model_type: "rf"
+  test_size: 0.2
+  epochs: 60
+  use_cuda: true
+
+# NUEVA SECCIÓN: Terminal Cuántica
+terminal:
+  refresh_interval: 1.0  # segundos
+  max_log_lines: 12
+  cluster:
+    master_ip: "192.168.1.100"
+    nodes:
+      - name: "NODE-01"
+        ip: "192.168.1.101"
+      - name: "NODE-02"
+        ip: "192.168.1.102"
+      - name: "NODE-03"
+        ip: "192.168.1.103"
+      - name: "NODE-04"
+        ip: "192.168.1.104"
+      - name: "NODE-05"
+        ip: "192.168.1.105"
+  colors:
+    primary: "cyan"
+    success: "green"
+    warning: "yellow"
+    error: "red"
+    info: "white"
